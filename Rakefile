@@ -38,8 +38,8 @@ task :install do
   system %Q{git submodule init}
   system %Q{git submodule update}
 
-  puts "Updating vim bundles with +BundleInstall +qall"
-  system %Q{vim +BundleInstall +qall}
+  # puts "Updating vim bundles with +BundleInstall +qall"
+  # system %Q{vim +BundleInstall +qall}
 
   puts "Installation of dotfiles completed."
 end
